@@ -1,0 +1,59 @@
+uddipyalamanchili@pes:~/programs/candidateelimination$ python3 pg2.py 
+[['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+ ['sunny' 'warm' 'high' 'strong' 'warm' 'same']
+ ['rainy' 'cold' 'high' 'strong' 'warm' 'change']
+ ['sunny' 'warm' 'high' 'strong' 'cold' 'change']]
+['yes' 'yes' 'no' 'yes']
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+[['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], 
+['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+ steps No 1
+Specific Boundary
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+Generic Boundary
+[['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], 
+['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+ steps No 2
+Specific Boundary
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+Generic Boundary
+[['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], 
+['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+ steps No 3
+Specific Boundary
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+Generic Boundary
+[['sunny', '?', '?', '?', '?', '?'], ['?', 'warm', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], 
+['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', 'same']]
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' 'warm' 'same']
+['sunny' 'warm' '?' 'strong' '?' 'same']
+['sunny' 'warm' '?' 'strong' '?' '?']
+['sunny' 'warm' '?' 'strong' '?' '?']
+ steps No 4
+Specific Boundary
+['sunny' 'warm' '?' 'strong' '?' '?']
+Generic Boundary
+[['sunny', '?', '?', '?', '?', '?'], ['?', 'warm', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], 
+['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+Final Solution
+['sunny' 'warm' '?' 'strong' '?' '?']
+[['sunny', '?', '?', '?', '?', '?'], ['?', 'warm', '?', '?', '?', '?']]
+
